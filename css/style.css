@@ -1,0 +1,159 @@
+
+.bat-image {
+  background-image: url('Illustrations/Bathome1.png');
+  background-repeat: no-repeat;
+  background-color: black;
+
+}
+
+.topright {
+  position: absolute;
+  top:40px;
+  right: 16px;
+  font-size: 20px;
+  color:white;
+}
+
+.icon-bar {
+    width: 50px;
+    position: absolute;
+    top: 50%;
+    right: 4%;
+}
+   
+.c1{ 
+    position: absolute;
+    top: 60%;
+	right: 20%;
+	} 
+.c2{ 
+    position: absolute;
+    top: 110%;
+	left: 10%;
+	}
+.c3{ 
+    position: absolute;
+    top: 170%;
+	left: 10%;
+	}
+.c4{ 
+    position: absolute;
+    top: 240%;
+	left: 10%;
+	}
+
+.c5{ 
+    position: absolute;
+    top: 320%;
+	left: 10%;
+	}
+.c6{ 
+    position: absolute;
+    top: 420%;
+	left: 10%;
+	}	
+.c7{ 
+    position: absolute;
+    top: 490%;
+	left: 15%;
+	}
+.c8 {
+  position: absolute;
+    text-align:center;
+    height: 60%;
+	width: 100%;
+    top: 580%;	
+	background-color: #808080;
+}
+.c9 {
+  position: absolute;
+    top: 640%;
+	left: 20%;
+	height: 70%;
+	width: 70%;
+	background-color: #000000;
+}
+.c10 {
+  position: absolute;
+    top: 700%;
+	left: 20%;
+	background-color: #000000;
+    height: 30%;
+	width: 70%;
+}
+.icon-bar img {
+  padding: 16px;
+
+
+}
+
+.icon-bar img:hover {
+  background-color: #000;
+}
+
+.vll {
+  border-left: 1px solid #CCC;
+  height: 550px;
+  position: absolute;
+  left: 5%;
+}
+.vlr {
+  border-left: 1px solid #CCC;
+  height: 550px;
+  position: absolute;
+  right: 5%;
+}
+div {color: white;}
+
+
+.button {
+  position: relative;
+  left:30%;
+  -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+  background-color: #ffffff;
+  border: none;
+  color: #a52a2a;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.4;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 12px;
+}
+  
+.button1 {
+  position: absolute;
+  top: 105%;
+  left: 47%;
+  cursor: pointer;
+   
+}
+
+.button:hover {opacity: 1}
+
+#d1{ 
+ position: absolute;
+text-align:center;
+}
+
+.column {  
+   top:90;
+  right: 20px;
+  float: left;
+  width: 30%;
+  padding: 1px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table; }
+.petit {
+font-size : xx-small;
+}
